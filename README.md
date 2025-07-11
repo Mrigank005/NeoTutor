@@ -26,31 +26,11 @@ It's like having your own AI teacher, personalized to your learning!
 
 ---
 
-## 🚀 Quickstart
+## 📄 View Notebook in Colab
 
-### 🔧 Requirements
+[![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-yellow?logo=googlecolab&style=for-the-badge)](https://colab.research.google.com/drive/1X4QwSB48fddXATlJBYtab16l7TM72KZk?usp=sharing)
 
-Install required packages first:
-
-```bash
-pip install langgraph transformers accelerate bitsandbytes --quiet
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 --quiet
-pip install huggingface_hub --quiet
-```
----
-
-### 🔑 Login to Hugging Face
-
-```python
-from huggingface_hub import notebook_login
-notebook_login()
-```
-
-### 🏃‍♂️ Run the Notebook
-
-1. Launch the `.ipynb` in a Google Colab GPU runtime
-2. Follow the prompts
-3. Learn, improve, repeat 🔁
+You can explore the full .ipynb notebook on Google Colab using the button above.
 
 ---
 
